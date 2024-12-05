@@ -1,0 +1,277 @@
+/* --------------------------------------navbar------------------------------  */
+#nav-img{
+    width: 190;
+    height: 50px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:1100px){
+    #think-grid{
+        padding: 10px !important;
+    }
+}
+@media screen and (max-width:640px){
+    /*-----  nav  ---------- */
+    #nav-img{
+        height: 30px;
+        width: 90px;
+    }
+    .navbar-brand{
+        padding: 0%;
+        margin-left: 0 ! important;
+    }
+    .navbar{
+        height: 45px;
+    }
+    .navbar-toggler{
+        font-size: 10px;
+    }
+    .nav-item{
+        font-size: 20px;
+        background-color: aqua;
+        text-align: center;
+        padding: 0 !important;
+    }  
+    /*-----  end of nav  ---------- */
+
+
+
+    /*---  think out of the box ----*/
+    #think-row-1{
+        padding: 0px !important;
+    }
+    #think-row-2{
+        padding: 10px !important;
+    }
+    /*--- end of think out of the box ----*/
+
+
+
+    /*---design & code 2 grid---*/
+    #design-code-col1{
+        padding: 5px !important;
+    }
+    #design-code-col2{
+        padding: 5px !important;
+    }
+    /*--- end of design & code  2 grid---*/
+
+
+     /*------- think out of the box with img --------*/
+    #think-grid{
+        padding: 10px !important;
+    }
+    .think-img{
+        padding: 20px;
+    }
+    /*------- end of think out of the box with img--------*/
+
+
+
+    /*---  design and code 3 grid----*/
+    #design-img-3{
+        padding: 10px !important;
+    }
+    /*--- end of design and code 3 grid----*/
+
+
+}
+
+#nav-img:hover{
+    box-shadow: 4px 4px 4px gold;
+}
+
+/* navbar buy word border  */
+.word-border{
+    border: 1px solid black;
+    padding: 2px 10px;
+}
+.word-border:hover{
+    background-color: green;
+    color: white;
+    transition: 0.6s;
+}
+
+.nav-item{
+    padding: 10px;
+}
+.nav-1:hover{
+    background-color: rgb(144, 206, 214);
+    border-radius: 3px;
+}
+/* for all dropdown , hover see the item  */
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* background color for dropdown-icons */
+.dropdown-icon-1{
+    color: white;
+    background-color: blue;
+    display: inline-flex;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 8px;
+}
+.dropdown-icon-2{
+    color: white;
+    background-color: rgb(236, 30, 99);
+    display: inline-flex;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 8px;
+}
+.dropdown-icon-3{
+    color: white;
+    background-color: rgb(82, 82, 211);
+    display: inline-flex;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 8px;
+}
+
+
+/* navbar icon style- shopping cart and searchbar */
+#nav-icon-1:hover{
+    color: blue;
+}
+#nav-icon-2:hover{
+    color: blue;
+}
+/* --------------------------------------------------------------------end of navbar--------------------  */
+
+/* ------------------------------------------------------------- brand & identity 3 grid ---------------- */
+#brand-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*--------------------------------------------------------- end of brand & identity 3 grid ---------------- */
+
+
+/*------------------------------------------------------- think out of the box -----------------------------*/
+#think{
+    max-width: 100%;
+}
+.progress-3{
+    padding: 5px;
+}
+#think-row-1{
+    background-color: black;
+    color: white;
+    padding: 80px;
+}
+#think-row-2{
+    background-color: rgb(86, 215, 219);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+/*------------------------------------------------------ end of think out of the box -------------------------------*/
+
+
+/*----------------------------------------------------- 100% translatable 6 grid -----------------------------------------*/
+#translate{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#translate-row-2{
+    margin-top: 40px;
+}
+/*---------------------------------------------------end of 100% translatable 6 grid -----------------------------------------*/
+
+
+/*-------------------------------------------------- Design and code for 2 grid ------------------------------ */
+#design-code{
+    max-width: 100%;
+}
+    
+#design-code-col1{
+    background-color: rgb(230, 233, 241);
+    padding: 60px;
+}
+#design-code-col2{
+    background-color: rgb(181, 188, 224);
+    padding: 60px;
+}
+/*----------------------------------------------end of Design and code for 2 grid --------------------------------------------*/
+
+
+/*---------------------------------------------- smart watch grid ----------------------------------- */
+#watch-grid{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*---------------------------------------------- end of smart watch grid  -------------------------*/
+
+
+/*------------------------------------------------ think out of the box with img ---------------------------------*/
+#think-grid{
+    margin-top: 50x;
+    margin-bottom: 50px;
+    max-width: 100%;
+    padding: 150px;
+    background-color: rgb(225, 227, 233);
+}
+
+
+/*-------------------------------------------------- END OF THINK OUT OF THE BOX with img----------------------------------------- */
+
+
+/*------------------------------------------------- what our customers say ---------------------------------*/
+#customers-heading{
+    padding: 30px;
+}
+
+#customers-review{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.customers-3{
+    width: 60%;
+    display: inline-block;
+}
+/*--------------------------------------------------  end of what our customers say -------------------------------*/
+
+
+/*------------------------------------------- design and code 3 grid , center img ---------------------------------*/
+#design-img{
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#design-img-1{
+    padding: 50px;
+    background-color: rgb(35, 92, 92);
+    color: white;
+}
+#design-img-2{
+    padding: 50px;
+    background-image: url(img/img-8.jpg);
+    color: white;
+}
+#design-img-3{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+.design-img-3-1{
+    margin-bottom: 10px;
+}
+.design-img-icon{
+    margin-right: 15px;
+    color: white; 
+    font-size: 30px;
+}
+.design-img-para{
+    margin-left: 50px;
+}
+/*----------------------------------------- end of design and code 3 grid , center img ---------------------------------------*/
+
+
+/*------------------------------------------- our value 3 grid ---------------------------------------*/
+#our-value{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY SITE</title>
+
+  <!-------------------------BOOTSTRAP v5.3 css link-------------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!--------------------------Font awesome cdn link--------------------------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/icon.jfif">
+</head>
+
+<body>
+
+  <!-------------------------- nav bar ----------------------------------------------------------->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#"><img src="img/logo.jfif" alt="logo" class="d-inline-block align-top"
+            id="nav-img"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto pe-5">
+            <li class="nav-item">
+
+<!-- in this class added (nav-1) , for add color in hover  -->
+
+              <a class="nav-link active nav-1" aria-current="page" href="#">DEMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-1" href="#">ELEMENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-1" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-1" href="#">SHOP</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active nav-1" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                HELP
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.instagram.com/" target="_blank"> <span
+                      class="dropdown-icon-1"><i class="fa-brands fa-facebook"> </i></span> FACEBOOK</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="https://www.facebook.com/" target="_blank"> <span
+                      class="dropdown-icon-2"><i class="fa-brands fa-instagram"></i></span> INSTAGRAM</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="https://x.com/" target="_blank"> <span class="dropdown-icon-3"><i
+                        class="fa-brands fa-twitter"></i></span> TWITTER</a></li>
+              </ul>
+            </li>
+
+            <!----------- span using for buy word border create ---------------------------------------------------------->
+            <li class="nav-item">
+              <a class="nav-link active" href="#"> <span class="word-border">BUY </span> </a>
+            </li>
+            <!----------- span end---------------------------------------------------------------------------------------->
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#" id="nav-icon-1"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" id="nav-icon-2"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-------------------navbar end ------------------------------------------------------->
+
+
+  <!-------------------- carousel slider ------------------------------------------------->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"
+    data-bs-wrap="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img src="img/IMG-1.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>EXPLORE</h5>
+          <p>Explore innovative ideas, create unique solutions, and drive company profits effectively</p>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="img/IMG-2.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>CREATE</h5>
+          <p>Create a dynamic platform to explore opportunities and maximize company profits</p>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="img/IMG-3.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>PROFIT</h5>
+          <p>Drive profits by exploring possibilities and creating value for your business</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--------------------------- carousel end------------------------------------------------------------------->
+
+
+  <!---------------------------- brand identity 3 grid -------------------------------------------------------->
+  <div class="container " id="brand-container">
+    <div class="row">
+      <div class="col-md">
+
+        <!---------- inside container for logo and title  1st column------->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <div class="col-sm">
+              <h5>Brand Identity</h5>
+              <p>Our innovative company web page showcases products, services, testimonials, blogs, contact details,
+                team members, and core values effectively</p>
+              <p><a href="#" class="btn btn-primary">TAKE A TOUR</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md">
+        <!---------- inside container for logo and title  2nd column--------->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <div class="col-sm">
+              <h5>Web Design & UI</h5>
+              <p>The company web page provides easy navigation, detailed service descriptions, customer reviews, a blog,
+                FAQs, and contact options</p>
+              <p><a href="#" class="btn btn-primary">TAKE A TOUR</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md">
+        <!---------- inside container for logo and title  3rd column--------->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1">
+              <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="col-sm">
+              <h5>Development & CMS</h5>
+              <p>Our responsive company web page integrates modern design, optimized SEO, interactive features, clear
+                branding, and secure e-commerce functionality</p>
+              <p><a href="#" class="btn btn-primary">TAKE A TOUR</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!------------------- end of brand & identity 3 grid --------------------------------------------------------->
+
+
+  <!-------------------- think out of the box grid ----------------------------------------------------------------->
+  <div class="container" id="think">
+    <div class="row" id="think-row-1">
+      <div class="col-md">
+        <h5>THINK OUT OF THE BOX</h5>
+        <P>Unlock limitless possibilities by challenging the norm and embracing innovation. At [Your Company Name], we
+          believe in thinking beyond boundaries to create groundbreaking solutions that redefine industries and drive
+          meaningful change for a brighter future</P>
+      </div>
+      <div class="col-md">
+        <div class="progress-3">
+          <strong>HTML/CSS</strong>
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%">80%</div>
+          </div>
+        </div>
+        <div class="progress-3">
+          <strong>PHOTO SHOP</strong>
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="63" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 63%">63%</div>
+          </div>
+        </div>
+        <div class="progress-3">
+          <strong>PHOTOGRAPHY</strong>
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 95%">95%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="think-row-2">
+      <div class="col-md">
+        <h1>197</h1>
+        <strong>CUPS OF COFFEE</strong>
+      </div>
+      <div class="col-md">
+        <h1>23</h1>
+        <strong>CODERS</strong>
+      </div>
+      <div class="col-md">
+        <h1>98</h1>
+        <strong>DESIGNERS</strong>
+      </div>
+      <div class="col-md">
+        <h1>7230</h1>
+        <strong>LINES OF CODE</strong>
+      </div>
+    </div>
+  </div>
+
+  <!--------------------------------------- 100% translatable 6 grid ------------------------------->
+  <div class="container" id="translate">
+    <div class="row">
+      <!-- first row first column ------->
+      <div class="col-md">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1">
+              <i class="fa-solid fa-signs-post"></i>
+            </div>
+            <div class="col-sm">
+              <h5>100% Translatable</h5>
+              <p>Our innovative company web page showcases products, services, testimonials, blogs, contact details,
+                team members, and core values effectively</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- first row second column ------->
+      <div class="col-md">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <div class="col-sm">
+              <h5>Mega-Menu</h5>
+              <p>The company web page provides easy navigation, detailed service descriptions, customer reviews, a blog,
+                FAQs, and contact options</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- first row third column ------->
+      <div class="col-md">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="col-sm">
+              <h5>Trusted Expert Support</h5>
+              <p>Our responsive company web page integrates modern design, optimized SEO, interactive features, clear
+                branding, and secure e-commerce functionality</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------- 2nd row----------------------- -->
+    <!------------create id for gap for row 1&2---->
+    <div class="row" id="translate-row-2">
+      <!-- second row first column ------->
+      <div class="col-md">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="col-sm">
+              <h5>Full Shop Functionality</h5>
+              <p>Our innovative company web page showcases products, services, testimonials, blogs, contact details,
+                team members, and core values effectively</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second row second column ------->
+      <div class="col-md">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <div class="col-sm">
+              <h5>Extensive Documentation</h5>
+              <p>The company web page provides easy navigation, detailed service descriptions, customer reviews, a blog,
+                FAQs, and contact options</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second row third column ------->
+      <div class="col-md">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <div class="col-sm">
+              <h5>Easy Installation</h5>
+              <p>Our responsive company web page integrates modern design, optimized SEO, interactive features, clear
+                branding, and secure e-commerce functionality</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------------------100% translatable 6 grid----------------------------------------->
+
+
+  <!--------------------------------------------Design and code for 2 grid -------------------------------------->
+  <!-------- create id for padding and bg color------->
+  <div class="container" id="design-code">
+    <div class="row">
+      <div class="col-md" id="design-code-col1">
+        <h5>DESIGN & CODE</h5>
+        <p>Our innovative company web page showcases products, services, testimonials, blogs, contact details, team
+          members, and core values effectively. The company web page provides easy navigation, detailed service
+          descriptions, customer reviews, a blog, FAQs, and contact options. Our responsive company web page integrates
+          modern design, optimized SEO, interactive features, clear branding, and secure e-commerce functionality</p>
+        <p><a href="#" class="btn btn-primary">READ MORE</a></p>
+      </div>
+
+      <div class="col-md" id="design-code-col2">
+        <h5>DESIGN & CODE</h5>
+        <p>Our innovative company web page showcases products, services, testimonials, blogs, contact details, team
+          members, and core values effectively. The company web page provides easy navigation, detailed service
+          descriptions, customer reviews, a blog, FAQs, and contact options. Our responsive company web page integrates
+          modern design, optimized SEO, interactive features, clear branding, and secure e-commerce functionality</p>
+        <p><a href="#" class="btn btn-primary">READ MORE</a></p>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------------ Design and code for 2 grid ------------------------------------- -->
+
+
+
+  <!------------------------------------------------------- smart watch grid ------------------------------- -->
+  <div class="container" id="watch-grid">
+    <div class="row">
+      <div class="col-sm">
+        <img src="img/img-4.jpg" width="300" height="300" alt="">
+        <strong>SMART WATCH</strong>
+        <p>Our innovative company web page showcases products, services, testimonials, blogs, contact details, team
+          members, and core values effectively. The company web page provides easy navigation, detailed service
+          descriptions, customer reviews, a blog, FAQs, and contact options.</p>
+      </div>
+      <div class="col-sm">
+        <img src="img/img-5.jpg" width="300" height="300" alt="">
+        <strong>MAGAZINE</strong>
+        <p>Our innovative company web page showcases products, services, testimonials, blogs, contact details, team
+          members, and core values effectively. The company web page provides easy navigation, detailed service
+          descriptions, customer reviews, a blog, FAQs, and contact options.</p>
+      </div>
+      <div class="col-sm">
+        <img src="img/img-6.jpg" width="300" height="300" alt="">
+        <strong>TABLET SMART COVER</strong>
+        <p>Our innovative company web page showcases products, services, testimonials, blogs, contact details, team
+          members, and core values effectively. The company web page provides easy navigation, detailed service
+          descriptions, customer reviews, a blog, FAQs, and contact options.</p>
+      </div>
+    </div>
+  </div>
+  <!----------------------------------------------------------end of smart watch grid ------- ----------------------------------------->
+
+
+  <!--------------------------------------------------------- THINK OUT OF THE BOX ----------------------------->
+  <div class="container" id="think-grid">
+    <div class="row">
+      <div class="col-sm">
+        <h4>THINK OUT OF THE BOX</h4>
+        <P>Our innovative company web page showcases products, services, testimonials, blogs, contact details, team
+          members, and core values effectively. The company web page provides easy navigation, detailed service
+          descriptions, customer reviews, a blog, FAQs, and contact options.</P>
+        <P>Our innovative company web page showcases products, services, testimonials, blogs, contact details, team
+          members, and core values effectively. The company web page provides easy navigation, detailed service
+          descriptions, customer reviews, a blog, FAQs, and contact options.</P>
+        <p><a href="#" class="btn btn-dark">OUR VISION</a></p>
+      </div>
+      <div class="col-sm" > 
+        <img src="img/img-7.jpg" class="think-img" alt="">
+      </div>
+    </div>
+  </div>
+  <!----------------------------------------------------------END OF THINK OUT OF THE BOX ------------------------->
+
+
+  <!------------------------------------- what our customers say ------------------------------------------>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"
+    data-bs-wrap="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" id="customers-review">
+      <h5 id="customers-heading">WHAT OUR CUSTOMERS SAY</h5>
+      <div class="carousel-item active">
+        <div class="customers-3">
+          <p>The company also offered robust technical support throughout the project. Their team was readily available to address any queries or concerns, making the entire process smooth and stress-free. Their commitment to customer service stood out as a major strength.</p>
+           
+          <strong>SANTHOSH</strong>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="customers-3" >
+          <p>One of the key features I evaluated was their user experience (UX) design. They conducted thorough research to understand the target audience, which resulted in a seamless navigation experience. Users can easily find information, which is crucial for retaining visitors on the site.</p>
+            
+          <strong>SANTHI</strong>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="customers-3" >
+          <p>When it comes to web design services, I recently had the pleasure of working with a corporate IT company that specializes in creating tailored websites for businesses. Their approach combines functionality with aesthetic appeal, ensuring that the end product not only looks great but also serves its purpose effectively.</p>
+            
+          <strong>VEDI</strong>
+        </div>
+      </div>
+    </div>
+    </button>
+  </div>
+ <!-------------------------------------end of what our customers say ------------------------------------------>
+
+
+
+<!----------------------------------------- design and code 3 grid , center img --------------------------------------->
+<div class="container" id="design-img">
+  <div class="row">
+    <div class="col-sm" id="design-img-1" >
+      <div style="margin-bottom: 10px;"> <strong>DESIGN & CODE</strong></div>
+      <p>When it comes to web design services, I recently had the pleasure of working with a corporate IT company that specializes in creating tailored websites for businesses. Their approach combines functionality with aesthetic appeal, ensuring that the end product not only looks great but also serves its purpose effectively</p>
+      <a href="" class="btn btn-light" style="border: 1px solid black;">READ MORE</a>
+    </div>
+
+    <div class="col-sm" id="design-img-2" >
+      <div style="margin-bottom: 10px;"> <strong>YOUR PERFECT TOOL</strong></div>
+      <p>When it comes to web design services, I recently had the pleasure of working with a corporate IT company that specializes in creating tailored websites for businesses. Their approach combines functionality with aesthetic appeal, ensuring that the end product not only looks great but also serves its purpose effectively</p>
+      <a href="" class="btn btn-light" style="border: 1px solid black;">READ MORE</a>
+    </div>
+
+    <div class="col-sm" id="design-img-3" >
+      <div class="design-img-3-1" >
+        <a href="" class="design-img-icon" > <i class="fa-solid fa-award"></i> </a>
+        <strong>DESIGN & CODE</strong>
+      </div>
+      <p class="design-img-para" >When it comes to web design services, I recently had the pleasure of working with a corporate IT company that specializes</p>
+      
+      <div class="design-img-3-1" > 
+        <a href=""  class="design-img-icon" > <i class="fa-solid fa-thumbtack"></i> </a>
+        <strong>DESIGN & CODE</strong>
+      </div> 
+      <P class="design-img-para" > Their approach combines functionality with aesthetic appeal, ensuring that the end product not only looks great</P>
+      
+    </div>
+  </div>
+</div>
+<!------------------------------------------- end of design and code 3 grid , center img  ------------------------------------------------->
+
+
+<!------------------------------------------------- our values 3 grid -------------------------------------->
+<div class="container" id="our-value">
+  <div class="row">
+    <div class="col-sm">
+      <h5>OUR VALUES</h5>
+      <P>When it comes to web design services, I recently had the pleasure of working with a corporate IT company that specializes in creating tailored websites for businesses. Their approach combines functionality with aesthetic appeal, ensuring that the end product not only looks great but also serves its purpose effectively.</P>
+    </div>
+    <div class="col-sm">
+      <h5>OUR VALUES</h5>
+      <P>When it comes to web design services, I recently had the pleasure of working with a corporate IT company that specializes in creating tailored websites for businesses. Their approach combines functionality with aesthetic appeal, ensuring that the end product not only looks great but also serves its purpose effectively.</P>
+    </div>
+    <div class="col-sm">
+      <h5>OUR VALUES</h5>
+      <P>When it comes to web design services, I recently had the pleasure of working with a corporate IT company that specializes in creating tailored websites for businesses. Their approach combines functionality with aesthetic appeal, ensuring that the end product not only looks great but also serves its purpose effectively.</P>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> -->
+  <script src="https://platform.linkedin.com/in.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
