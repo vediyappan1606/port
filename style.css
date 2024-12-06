@@ -9,6 +9,9 @@
     #think-grid{
         padding: 10px !important;
     }
+    #caro-card{
+        padding: 100px !important;
+    }
 }
 @media screen and (max-width:640px){
     /*-----  nav  ---------- */
@@ -73,6 +76,15 @@
         padding: 10px !important;
     }
     /*--- end of design and code 3 grid----*/
+
+
+    /*---- carouse card imgs -----*/
+    #caro-card{
+        padding: 20px !important;
+    }
+    /*----end of carouse card imgs -----*/
+
+
 
 
 }
@@ -274,4 +286,20 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+/*-------------------------------------------- end of  our value 3 grid -------------------------------------*/
+
+
+
+/*-------------------------------------- carousel card imgs ---------------------------------*/
+#caro-card{
+    background-color: rgb(240, 243, 240);
+    padding: 150px;
+}
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*--------------------------------------- end of carousel card imgs ----------------------------------*/
+
+
 
