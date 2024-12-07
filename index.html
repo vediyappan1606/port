@@ -22,10 +22,10 @@
 <body>
 
   <!-------------------------- nav bar ----------------------------------------------------------->
-  <header>
+  <header id="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand ms-5" href="#"><img src="img/logo.jfif" alt="logo" class="d-inline-block align-top"
+        <a class="navbar-brand ms-5" href="#header"><img src="img/logo.jfif" alt="logo" class="d-inline-block align-top"
             id="nav-img"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,16 +37,16 @@
 
               <!-- in this class added (nav-1) , for add color in hover  -->
 
-              <a class="nav-link active nav-1" aria-current="page" href="#">DEMOS</a>
+              <a class="nav-link active nav-1" aria-current="page" href="#demo">DEMOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active nav-1" href="#">ELEMENTS</a>
+              <a class="nav-link active nav-1" href="#elements">ELEMENTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active nav-1" href="#">PORTFOLIO</a>
+              <a class="nav-link active nav-1" href="#portfolio">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active nav-1" href="#">SHOP</a>
+              <a class="nav-link active nav-1" href="#shop">SHOP</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle active nav-1" href="#" role="button" data-bs-toggle="dropdown"
@@ -71,7 +71,7 @@
 
             <!----------- span using for buy word border create ---------------------------------------------------------->
             <li class="nav-item">
-              <a class="nav-link active" href="#"> <span class="word-border">BUY </span> </a>
+              <a class="nav-link active" href="#buy"> <span class="word-border">BUY </span> </a>
             </li>
             <!----------- span end---------------------------------------------------------------------------------------->
 
@@ -138,6 +138,7 @@
 
 
   <!---------------------------- brand identity 3 grid -------------------------------------------------------->
+  <section id="demo">
   <div class="container " id="brand-container">
     <div class="row">
       <div class="col-md">
@@ -195,6 +196,7 @@
 
     </div>
   </div>
+  </section>
   <!------------------- end of brand & identity 3 grid --------------------------------------------------------->
 
 
@@ -252,6 +254,7 @@
   </div>
 
   <!--------------------------------------- 100% translatable 6 grid ------------------------------->
+  <section id="elements">
   <div class="container" id="translate">
     <div class="row">
       <!-- first row first column ------->
@@ -355,6 +358,7 @@
       </div>
     </div>
   </div>
+  </section>
   <!-------------------------------------------100% translatable 6 grid----------------------------------------->
 
 
@@ -386,6 +390,7 @@
 
 
   <!------------------------------------------------------- smart watch grid ------------------------------- -->
+  <section id="portfolio">
   <div class="container" id="watch-grid">
     <div class="row">
       <div class="col-sm">
@@ -411,6 +416,7 @@
       </div>
     </div>
   </div>
+  </section>
   <!----------------------------------------------------------end of smart watch grid ------- ----------------------------------------->
 
 
@@ -484,6 +490,7 @@
 
 
   <!----------------------------------------- design and code 3 grid , center img --------------------------------------->
+  <section id="shop">
   <div class="container" id="design-img">
     <div class="row">
       <div class="col-sm" id="design-img-1">
@@ -520,6 +527,7 @@
       </div>
     </div>
   </div>
+  </section>
   <!------------------------------------------- end of design and code 3 grid , center img  ------------------------------------------------->
 
 
@@ -550,7 +558,8 @@
 
 
   <!---------------------------------------- carousel card imgs ----------------------------------------->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-wrap="true" >
+  <section id="buy">
+  <div id="carouselExampleIndicators " class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-wrap="true" >
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -636,6 +645,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  </section>
   <!----------------------------------------- end of carousel card imgs ----------------------------------------------->
 
 
