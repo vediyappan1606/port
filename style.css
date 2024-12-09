@@ -78,7 +78,7 @@ section{
 
     /*------- think out of the box with img --------*/
     #think-grid{
-        padding: 10px !important;
+        padding: 40px !important;
     }
     .think-img{
         padding: 20px;
@@ -107,6 +107,10 @@ section{
         padding: 5px !important;
         padding-left: 10px !important;
         padding-right: 10px !important;
+    }
+
+    #con-footer{
+        margin-left: 0px !important;
     }
 }
 
