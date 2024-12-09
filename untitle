@@ -95,3 +95,39 @@
      <span class="sr-only">Next</span>
    </a>
    </div> -->
+
+
+
+
+
+   <!-- <div class="col-sm" id="design-img-3">
+    <div class="design-img-3-1">
+      <a href="" class="design-img-icon"> <i class="fa-solid fa-award"></i> </a>
+      <strong>DESIGN & CODE</strong>
+    </div>
+    <p class="design-img-para">When it comes to web design services, I recently had the pleasure of working with a
+      corporate IT company that specializes</p>
+
+    <div class="design-img-3-1">
+      <a href="" class="design-img-icon"> <i class="fa-solid fa-thumbtack"></i> </a>
+      <strong>DESIGN & CODE</strong>
+    </div>
+    <P class="design-img-para"> Their approach combines functionality with aesthetic appeal, ensuring that the end
+      product not only looks great</P>
+
+  </div> -->
+
+<!-- .design-img-3-1{
+    margin-bottom: 10px;
+}
+.design-img-icon{
+    margin-right: 15px;
+    color: white; 
+    font-size: 30px;
+}
+.design-img-para{
+    margin-left: 50px;
+} -->
+
+
+  

@@ -15,9 +15,12 @@ section{
     #think-grid{
         padding: 10px !important;
     }
+
+    /* 6card */
     #caro-card{
         padding: 100px !important;
     }
+
 }
 @media screen and (max-width:640px){
     /*-----  nav  ---------- */
@@ -43,8 +46,7 @@ section{
     }  
     /*-----  end of nav  ---------- */
 
-
-
+    
     /*---  think out of the box ----*/
     #think-row-1{
         padding: 0px !important;
@@ -90,13 +92,16 @@ section{
     }
     /*----end of carouse card imgs -----*/
 
-
-
-
+    /* footer */
+    #con-row-2{
+        padding: 5px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
 }
 
 #nav-img:hover{
-    box-shadow: 4px 4px 4px gold;
+    box-shadow: 4px 4px 4px rgb(240, 217, 86) ;
 }
 
 /* navbar buy word border  */
@@ -121,6 +126,7 @@ section{
 .dropdown:hover .dropdown-menu{
     display: block;
 }
+
 
 /* background color for dropdown-icons */
 .dropdown-icon-1{
@@ -163,6 +169,18 @@ section{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.brand-top{
+    margin-bottom: 10px;
+  }
+  .brand-icon{
+    margin-right: 15px;
+    color: rgb(10, 10, 10); 
+    font-size: 30px;
+    float: left;
+  }
+  .brand-para{
+    margin-left: 50px;
+  }
 /*--------------------------------------------------------- end of brand & identity 3 grid ---------------- */
 
 
@@ -188,13 +206,24 @@ section{
 
 
 /*----------------------------------------------------- 100% translatable 6 grid -----------------------------------------*/
-#translate{
+#elements{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-#translate-row-2{
-    margin-top: 40px;
+
+.translate-top{
+    margin-bottom:10px;
+  }
+.translate-icon{
+    margin-right: 15px;
+    color: rgb(19, 18, 18); 
+    font-size: 30px;
+    float: left;
 }
+.translate-para{
+    margin-left:50px;
+}
+
 /*---------------------------------------------------end of 100% translatable 6 grid -----------------------------------------*/
 
 
@@ -308,4 +337,60 @@ section{
 /*--------------------------------------- end of carousel card imgs ----------------------------------*/
 
 
-
+/*--------------------------------------------- contact ---------------------------------------*/
+#contact-end{
+    max-width: 100%;
+}
+#con-row-1{
+    background-color: rgb(44, 171, 230);
+    color: white;
+    padding: 20px;
+}
+#con-row-2{
+    background-color: rgb(51, 49, 49) ;
+    color: white;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.con-icon{
+    font-size: 30px;
+}
+.con-para-1{
+    margin-top: 20px;
+}
+.con-icon-end{
+    margin-right: 5px;
+    color: rgb(184, 8, 8);
+    float: left;
+}
+.con-para{
+    margin-left: 10px;
+}
+.con-det{
+    margin-bottom: 10px;
+}
+.con-news-and-pro{
+    margin-bottom: 35px;
+}
+.con-imgs img {
+    height: 40px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+#con-row-3{
+    padding: 15px;
+    background-color: lightslategray;
+}
+#con-footer{
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.con-icon-footer i{
+    padding-left: 10px;
+    color: white;
+}
+.con-icon-footer i:hover{
+    color: gold;
+}
