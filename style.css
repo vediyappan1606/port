@@ -57,7 +57,6 @@ section{
     /*--- end of think out of the box ----*/
 
 
-
     /*---design & code 2 grid---*/
     #design-code-col1{
         padding: 5px !important;
@@ -68,15 +67,26 @@ section{
     /*--- end of design & code  2 grid---*/
 
 
-     /*------- think out of the box with img --------*/
+    /*--- smart watch grid ----*/
+    .watch-imgs{
+        height: 200px;
+        width: 200px;
+    }
+    /*--- end of smart watch grid  ---*/
+
+
+
+    /*------- think out of the box with img --------*/
     #think-grid{
         padding: 10px !important;
     }
     .think-img{
         padding: 20px;
+        height: 200px;
+        width: 185px;
+        margin-left: 20px;
     }
     /*------- end of think out of the box with img--------*/
-
 
 
     /*---  design and code 3 grid----*/
